@@ -1,0 +1,65 @@
+
+body{
+    font-family: 'Molle', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+
+.carousel-item {
+    height: 30rem;
+}
+
+.navbar-brand img{
+    width: 40px;
+    
+}
+.blog{
+    display: flex;
+    padding: 50px;
+    
+}
+
+.blogimage img{
+    width: 80%;
+    margin-top:50px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.blogdetails h2{
+    margin-top:  46px;
+    margin-right: 140px;
+  
+    width: 600px;
+    padding: 20px;
+    font-size: 26px;
+}
+
+
+
+
+.blogdetails2 h2{
+    margin-top:  56px;
+    margin-left: 110px;
+  
+    width: 600px;
+    padding: 20px;
+    font-size: 26px;
+}
+
+
+.blogimage2 img{
+    width: 80%;
+    margin-top:50px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+
+.ppp{
+    position:absolute;
+}
+.pagination{
+    position: relative;
+    left: 55px;
+}
+

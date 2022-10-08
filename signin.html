@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+
+    <!-- fontawesome cdn -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+   <!-- google font -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Molle&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+
+
+    <title>Registration form</title>
+    
+</head>
+<body>
+     <header>
+        <h1>Sign</h1> <span> <a href="#"><i class="fa-brands fa-linkedin-in"></i></a> </span>
+        <h3>Make the most of your professional life</h3>
+     </header>
+
+
+     <!-- form create -->
+    <section class="form">
+
+        
+<div class="form-linkedin">
+  <form>
+    <label>First Name</label>
+    <input type="text" id="fname" name="firstname" >
+
+    <label>Last Name</label>
+    <input type="text" id="lname" name="lastname" >
+    <label>Email</label>
+    <input type="email" id="email" name="email" required="">
+    <label for="Password">Password (6 or more characters) </label>
+    <input type="password" id="password" name="password"   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters"  required="">
+    
+    <div class="details">
+        <h2>You agree to the Linkedin <span><a href="#">User Agreement, Privacy Policy, </a></span> and </h2><br>
+    <h2 id="cookie"><a href="#">Cookie Policy</a></h2>
+    </div>
+
+
+  
+  
+    <input type="submit" value="Agree & Join">
+
+    <div class="hr">
+        <div class="lefthr">  </div>
+        <div class="or"> <p>or</p> </div>
+        <div class="righthr">  </div>
+    </div>
+
+     <!-- <i class="fa-brands fa-facebook-f"></i><input type="submit" value="Continue with Facebook"> -->
+
+     <div class="button">
+         <i class="fa-brands fa-facebook-f"></i>
+         <a>Continue with Facebook </a>
+     </div>
+
+     <div class="singing">
+        <p>Already on Linkedin?</p>
+        <span> <a href="#">Sing in</a></span>
+     </div>
+
+
+
+  </form>
+</div>
+
+
+<h2 class="backbutton"><a href="index.html"><i class="fa-solid fa-backward"></i> Next <i class="fa-solid fa-forward"></i>  </a></h2>
+
+<footer>
+    <p>Tanjid Corporation @ 2022 </p>
+</footer>
+
+
+
+        
+    </section>    
+
+    
+</body>
+</html>

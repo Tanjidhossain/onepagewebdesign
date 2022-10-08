@@ -1,0 +1,303 @@
+
+
+body{
+     background-color: #4186ed; 
+    /* background-color: red; */
+    font-family: 'Molle', cursive;
+font-family: 'Roboto', sans-serif;
+    
+}
+
+
+header{
+ color: white;
+ text-align: center;
+ 
+ 
+}
+
+header h1{
+    font-size: 32px;
+    display: inline-block;
+
+}
+
+header span{
+     display: inline-block;
+     margin-left: 5px;
+     background-color: white;
+     padding: 0 4px;
+     border-radius: 5px;
+     
+
+
+}
+
+header span i{
+    color: #4186ed;
+}
+
+header span a{
+color: white;
+font-size: 27px;
+
+
+}
+
+h3{
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+
+/* form style */
+
+.form-linkedin{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+label{
+    color: rgb(145, 151, 145);
+}
+
+
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+
+   -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  
+}
+
+input[type=text]:focus {
+  border: 3px solid rgb(155, 176, 235);
+}
+
+
+
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+ border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;  
+     -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+
+}
+
+input[type=email]:focus {
+  border: 3px solid rgb(155, 176, 235);
+}
+
+
+
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+ border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+     -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=password]:focus {
+  border: 3px solid rgb(155, 176, 235);
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(32, 32, 128);
+  color: white;
+  padding: 4px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 200;
+}
+
+input[type=submit]:hover {
+  background-color: #4186ed;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+.details h2{
+    font-size: 13px;
+    margin-left: -15px;
+    color: rgb(145, 151, 145);
+     letter-spacing: 0.5px;
+    
+}
+
+.details span{
+ 
+  
+
+}
+.details span a{
+ text-decoration: none;
+ color: black;  
+
+}
+
+#cookie a {
+    text-decoration: none;
+       color: black;
+}
+#cookie{
+    font-size: 13px;
+    margin-top: -22px;
+    text-align: center;
+ 
+   
+    
+}
+
+.hr{
+   
+   
+
+}
+
+.lefthr{
+width: 100px;
+display: inline-block;
+border-bottom: 2px solid rgb(145, 151, 145);
+border-radius: 0px;
+
+
+
+ }
+
+.or{
+
+display: inline-block;
+  color: rgb(145, 151, 145);
+
+
+ }
+
+.righthr{ 
+width: 100px;
+display: inline-block;
+border-bottom: 2px solid rgb(145, 151, 145);
+border-radius: 0px;
+
+
+
+}
+
+.button{
+      width: 100%;
+  background-color: rgb(27, 27, 87);
+  color: white;
+  padding: 4px 1px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.button i{
+    font-size: 30px;     
+    margin: 0 11px;
+}
+.button a{
+    display: inline-block;
+    margin: 0 51px;
+    font-weight: 200;
+}
+
+.button:hover{
+    background-color: skyblue;
+}
+
+
+
+
+
+.singing{
+text-align: center;
+
+}
+.singing p{
+display: inline;
+font-weight: 700;
+
+}
+.singing span{
+
+    
+}
+.singing span a{
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+    font-weight: 700;
+    
+}
+
+.singing span a:hover{
+    color: red;
+}
+
+/* footer style */
+
+footer{
+    text-align: center;
+    color: white;
+
+}
+
+footer p {
+    margin-bottom: -5px;
+}
+
+
+.backbutton {
+  text-align: center;
+    
+
+
+    
+}
+.backbutton a{
+    font-size: 30px;
+    color: aliceblue;       
+    text-decoration: none;
+    background-image: linear-gradient(to right top, #ff60c2, #ff60a0, #ff6981, #ff7965, #ff8b4f);
+   
+    
+   
+}
